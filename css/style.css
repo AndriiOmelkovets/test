@@ -1,0 +1,344 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-section {
+    background: url('/img/main-background.png') no-repeat;
+    background-size: cover;
+    padding-bottom: 192px;
+}
+
+    .main-section .wrap-main-section {
+        width: 1140px;
+        margin: auto;
+        padding-top: 42px;
+    }
+
+    .main-section .wrap-header div {
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    .main-section .wrap-header .menu, .main-section .wrap-header .signin {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .main-section .wrap-header .menu {
+        float: left;
+        background: url('/img/menu.png') no-repeat;
+        padding-left: 52px;
+        height: 24px;
+        line-height: 24px;
+        margin: 18px 0 0 8px;
+        cursor: pointer;
+    }
+
+    .main-section .wrap-header .logo h2 {
+        color: #2faef6;
+        font-family: Georgia;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+
+    .main-section .wrap-header .logo {
+        position: relative;
+        left: 392px;
+        text-align: center;
+    }
+
+        .main-section .wrap-header .logo p {
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 4px;
+        }
+
+    .main-section .wrap-header .signin {
+        float: right;
+        background: url('/img/lock.png') no-repeat;
+        padding-left: 50px;
+        height: 30px;
+        line-height: 30px;
+        margin: 13px 8px 0 0;
+    }
+
+        .main-section .wrap-header .signin span {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+            .main-section .wrap-header .signin span:first-child {
+                border-right: 1px solid white;
+                padding-right: 26px;
+            }
+
+            .main-section .wrap-header .signin span:last-child {
+                padding-left: 22px;
+            }
+
+            .main-section .wrap-header .signin span a {
+                color: white;
+            }
+
+    .main-section .tagline {
+        margin-top: 160px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+        .main-section .tagline h1 {
+            color: white;
+            font-size: 81px;
+            font-weight: 300;
+            line-height: 64px;
+            margin-bottom: 16px;
+        }
+
+        .main-section .tagline h2 {
+            color: #8babc7;
+            font-size: 60px;
+            font-weight: 300;
+            line-height: 48px;
+            margin-bottom: 44px;
+        }
+
+        .main-section .tagline .button-learn-more {
+            display: inline-block;
+            width: 219px;
+            height: 42px;
+            background-color: #2faef6;
+            border-radius: 3px;
+            margin: auto;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 42px;
+        }
+
+.about-us {
+    background: url('/img/background-our-achievements.png') no-repeat;
+    background-size: 100% 163px;
+    background-color: RGB(234, 237, 241);
+    padding-bottom: 12px;
+}
+
+    .about-us .wrap-about-us {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .about-us .our-achievements {
+        display: flex;
+        padding-top: 40px;
+        margin-bottom: 36px;
+    }
+
+        .about-us .our-achievements li {
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding-left: 68px;
+        }
+
+            .about-us .our-achievements li p:first-child {
+                line-height: 19px;
+            }
+
+                .about-us .our-achievements li p:first-child span {
+                    font-size: 30px;
+                    margin-left: 8px;
+                }
+
+            .about-us .our-achievements li p:last-child {
+                font-weight: 600;
+                color: #2faef6;
+                margin-top: 5px;
+            }
+
+        .about-us .our-achievements .cap {
+            background: url('/img/cap.png') no-repeat;
+            background-position: left 72%;
+            margin: 0 144px 0 83px;
+        }
+
+        .about-us .our-achievements .flag {
+            background: url('/img/flag.png') no-repeat;
+            background-position: left 72%;
+            margin-right: 126px;
+        }
+
+        .about-us .our-achievements .house {
+            background: url('/img/house.png') no-repeat;
+            background-position: 2px 90%;
+        }
+
+    .about-us .about-our-company {
+        background-color: white;
+        border-radius: 3px;
+        padding: 40px 52px 34px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+        .about-us .about-our-company h3 {
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+            .about-us .about-our-company h3:after {
+                content: "";
+                width: 66px;
+                height: 2px;
+                background-color: #2faef6;
+                display: block;
+                margin: 24px auto 25px;
+            }
+
+        .about-us .about-our-company p {
+            margin-bottom: 24px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #666;
+            line-height: 24px;
+        }
+
+        .about-us .about-our-company .learn-more {
+            color: #2faef6;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 600;
+            text-transform: uppercase;
+            background: url('/img/arrow.png') no-repeat;
+            background-position: right center;
+            padding-right: 42px;
+        }
+
+.qwe {
+    height: 1000px;
+}
+
+.our-project {
+    background-color: RGB(234, 237, 241);
+    padding-top: 44px;
+    padding-bottom: 30px;
+}
+
+    .our-project .wrap-our-project {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .our-project h3 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+        .our-project h3:after {
+            content: "";
+            width: 66px;
+            height: 2px;
+            background-color: #2faef6;
+            display: block;
+            margin: 24px auto 25px;
+        }
+
+    .our-project .project-button {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+        .our-project .project-button span {
+            width: 124px;
+            height: 37px;
+            border-radius: 3px;
+            display: inline-block;
+            line-height: 37px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+            .our-project .project-button span:hover {
+                background-color: #2faef6;
+                color: white;
+            }
+
+    .our-project .about-project {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+        .our-project .about-project li {
+            width: 344px;
+            height: 292px;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(226, 219, 208, 0.6);
+            padding: 10px 10px 0;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+
+        .our-project .about-project .project-img {
+            width: 323px;
+        }
+
+        .our-project .about-project p {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 16px;
+            text-transform: uppercase;
+            margin: 15px 0 23px;
+        }
+
+.main-footer {
+    background: url('../img/background-our-achievements.png') no-repeat;
+    background-size: cover;
+    padding: 38px 0 42px;
+}
+
+    .main-footer .wrap-main-footer {
+        width: 1140px;
+        margin: auto;
+        display: table;
+        clear: both;
+        content: "";
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+        .main-footer .wrap-main-footer .our-contact {
+            float: left;
+        }
+
+    .main-footer .our-contact span:first-child {
+        margin-right: 30px;
+    }
+
+    .main-footer .wrap-main-footer .development {
+        float: right;
+    }
+
+    .main-footer .development span:first-child {
+        padding-right: 20px;
+        border-right: 1px solid white;
+        line-height: 12px;
+        display: inline-block;
+    }
+
+    .main-footer .development span:last-child {
+        padding-left: 24px;
+        padding-right: 5px;
+    }
