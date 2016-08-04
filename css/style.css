@@ -3,7 +3,7 @@
 }
 
 .main-section {
-    background: url('/img/main-background.png') no-repeat;
+    background: url('../img/main-background.png') no-repeat;
     background-size: cover;
     padding-bottom: 192px;
 }
@@ -27,7 +27,7 @@
 
     .main-section .wrap-header .menu {
         float: left;
-        background: url('/img/menu.png') no-repeat;
+        background: url('../img/menu.png') no-repeat;
         padding-left: 52px;
         height: 24px;
         line-height: 24px;
@@ -59,7 +59,7 @@
 
     .main-section .wrap-header .signin {
         float: right;
-        background: url('/img/lock.png') no-repeat;
+        background: url('../img/lock.png') no-repeat;
         padding-left: 50px;
         height: 30px;
         line-height: 30px;
@@ -121,7 +121,7 @@
         }
 
 .about-us {
-    background: url('/img/background-our-achievements.png') no-repeat;
+    background: url('../img/background-our-achievements.png') no-repeat;
     background-size: 100% 163px;
     background-color: RGB(234, 237, 241);
     padding-bottom: 12px;
@@ -162,19 +162,19 @@
             }
 
         .about-us .our-achievements .cap {
-            background: url('/img/cap.png') no-repeat;
+            background: url('../img/cap.png') no-repeat;
             background-position: left 72%;
             margin: 0 144px 0 83px;
         }
 
         .about-us .our-achievements .flag {
-            background: url('/img/flag.png') no-repeat;
+            background: url('../img/flag.png') no-repeat;
             background-position: left 72%;
             margin-right: 126px;
         }
 
         .about-us .our-achievements .house {
-            background: url('/img/house.png') no-repeat;
+            background: url('../img/house.png') no-repeat;
             background-position: 2px 90%;
         }
 
@@ -215,7 +215,7 @@
             line-height: 32px;
             font-weight: 600;
             text-transform: uppercase;
-            background: url('/img/arrow.png') no-repeat;
+            background: url('../img/arrow.png') no-repeat;
             background-position: right center;
             padding-right: 42px;
         }
