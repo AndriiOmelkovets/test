@@ -1,5 +1,6 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1140px;
 }
 
 .main-section {
@@ -278,7 +279,6 @@
 
         .our-project .about-project li {
             width: 344px;
-            height: 292px;
             background-color: white;
             box-shadow: 0 0 5px rgba(226, 219, 208, 0.6);
             padding: 10px 10px 0;
